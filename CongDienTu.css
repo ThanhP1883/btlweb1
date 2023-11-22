@@ -1,0 +1,136 @@
+
+.ThanhMenu ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color:#000055;
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center ;
+    padding-left: 400px;
+}
+
+.ThanhMenu li{
+    float:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    text-align: center;
+}
+.ThanhMenu li a, .dropbtn{
+    display:inline-block;
+    color:white;
+    padding: 14px 16px;
+    text-emphasis: none;
+    text-align: center;
+}
+.ThanhMenu li a:hover, .dropbtn:hover .dropbtn{
+    background-color: brown;
+}
+.ThanhMenu li.dropbtn{
+    display:inline-block;
+}
+.ThanhMenu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0,2);
+    z-index: 1;
+}
+.ThanhMenu .dropdown-content a{
+    color: #000055;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.ThanhMenu a{
+    text-decoration: none
+}
+
+
+
+.NoiDung{
+    min-height: 400px;
+    width: 1150px;
+    float: left;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px gray;
+}
+.NoiDung article{
+    min-height: 30px;
+    width: 1150px;
+    background: red;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1f1f1;
+    padding: 10px 0 0 ;
+}
+.NoiDung .NoidungNoidung{
+    padding: 50px;
+}
+.NoiDung .NoidungNoidung li{
+    float: left;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.NoiDung .NoidungNoidung li a{
+    text-decoration: none
+    
+}
+.NoiDung img{
+    margin: 20px 0;
+    width:50% ;  
+    float: left;
+}
+
+
+.TinNoiBat{
+    min-height: 400px;
+    width: 600px;
+    float: right;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px gray;
+    
+}
+.TinNoiBat aside{
+    min-height: 30px;
+    width: 600px;
+    background: red;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1f1f1;
+    clear: both;
+    padding: 10px 0 0 ;
+}
+.TinNoiBat .NoiDungTin a{
+    clear: both;
+    font-size: 27px;
+    text-decoration: none
+    
+}
+.TinNoiBat .NoiDungTin{
+    padding: 30px;
+}
+.bot{
+   
+    
+    height: 70px;
+    background:#000055;
+    color:#f1f1f1;
+    margin: 450px 0 0 0;
+    padding: 20px;
+}
+
+body{
+    margin:0 30px ;
+}
